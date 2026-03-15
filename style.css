@@ -1,0 +1,87 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, sans-serif;
+}
+
+body{
+background:#f4f6f9;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+}
+
+.container{
+width:90%;
+max-width:500px;
+text-align:center;
+}
+
+h1{
+margin-bottom:20px;
+color:#333;
+}
+
+.search-box{
+display:flex;
+gap:10px;
+margin-bottom:20px;
+}
+
+.search-box input{
+flex:1;
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.search-box button{
+padding:10px 20px;
+border:none;
+background:#007bff;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+.search-box button:hover{
+background:#0056b3;
+}
+
+.result-card{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+text-align:left;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:10px;
+}
+
+table th, table td{
+border-bottom:1px solid #eee;
+padding:8px;
+text-align:left;
+}
+
+.pass{
+color:green;
+font-weight:bold;
+}
+
+.fail{
+color:red;
+font-weight:bold;
+}
+
+.not-found{
+color:red;
+font-weight:bold;
+text-align:center;
+}
